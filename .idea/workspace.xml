@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Exercicio finalizado">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio2/TestarLivros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/TestarLivros.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Filme.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Filme.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,7 @@
       <recent name="C:\Users\raissa.carvalho\Desktop\modulo8\src\main\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestarLivrosKt">
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio3.MainKt" />
       <module name="modulo8" />
@@ -71,8 +72,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TestarLivrosKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.TestarLivrosKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -93,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688665323948</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercicio finalizado">
+      <created>1688667336876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688667336876</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

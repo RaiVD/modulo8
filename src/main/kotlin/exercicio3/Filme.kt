@@ -1,9 +1,10 @@
 package exercicio3
 
+import kotlin.time.Duration.Companion.minutes
+
 class Filme(var filme: String, var duracaoEmMinutos : Int) {
     fun exibirDuracaoEmHoras(){
-        val horas = duracaoEmMinutos  / 60
-        val minutos = duracaoEmMinutos  % 60
-        println("O filme $filme possui $horas horas e $minutos minutos de duração.")
+        val horas = duracaoEmMinutos.minutes
+        println("O filme $filme possui $horas de duração.")
     }
 }
