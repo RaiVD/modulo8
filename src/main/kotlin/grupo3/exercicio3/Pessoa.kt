@@ -5,7 +5,7 @@ class Pessoa() {
         val idade = calcularIdade(anoNascimento)
 
         if (idade >= 18) {
-            println("$nomeUsuario é maior de idade.")
+            println("$nomeUsuario é maior de idade.\nEla tem $idade anos.")
         } else {
             val anosQueFaltam = 18 - idade
             println("$nomeUsuario tem $idade anos, faltam $anosQueFaltam anos para ser maior de idade!")

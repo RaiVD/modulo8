@@ -1,8 +1,8 @@
 package grupo3.exercicio4
 
 class PesquisaSagaFilmes {
-    private val votosMatrix = mutableListOf<String>()
-    private val votosSenhorDosAneis = mutableListOf<String>()
+    private val votosMatrix = ArrayList<String>()
+    private val votosSenhorDosAneis = ArrayList<String>()
 
     fun realizarPesquisa() {
         println("Pesquisa de Saga de Filmes")
@@ -18,6 +18,7 @@ class PesquisaSagaFilmes {
                 println("Pessoa $i, qual seu voto: ")
                 opcao = readlnOrNull()?.toIntOrNull()
             }
+
             if (opcao == 1) {
                 votosMatrix.add("Pessoa $i")
             } else {
@@ -31,9 +32,10 @@ class PesquisaSagaFilmes {
         val totalVotosMatrix = votosMatrix.size
         val totalVotosSenhorDosAneis = votosSenhorDosAneis.size
 
-        println("\nResultado da Pesquisa:")
+        println("\n============Resultado da Pesquisa============")
         println("Total de votos para Matrix: $totalVotosMatrix")
         println("Total de votos para Senhor dos Anéis: $totalVotosSenhorDosAneis")
+        println()
 
         when {
             totalVotosMatrix > totalVotosSenhorDosAneis -> println("Saga vencedora: Matrix!")

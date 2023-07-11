@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Exercicio finalizado">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio1/Calculadora.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio1/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio2/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio3/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio3/Pessoa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio4/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo1/exercicio4/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio1/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio2/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Pessoa.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio4/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio4/PesquisaSagaFilmes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio1/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio1/Pessoa.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio2/CompanhiaAerea.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio2/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio3/Main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resolucaoDosExercicios/exercicio4/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio3/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio4/PesquisaSagaFilmes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/grupo3/exercicio4/PesquisaSagaFilmes.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +49,7 @@
       <recent name="C:\Users\raissa.carvalho\Desktop\modulo8\src\main\resolucaoDosExercicios\exercicio3" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.MainKt (4)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="grupo1.exercicio2.MainKt" />
       <module name="modulo8" />
@@ -75,28 +58,28 @@
       </method>
     </configuration>
     <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercicio3.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="grupo3.exercicio3.MainKt" />
+      <module name="modulo8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="grupo3.exercicio2.MainKt" />
       <module name="modulo8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grupo1.exercicio1.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="grupo3.exercicio4.MainKt" />
       <module name="modulo8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grupo1.exercicio3.MainKt" />
-      <module name="modulo8" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="grupo1.exercicio4.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="grupo3.exercicio1.MainKt" />
       <module name="modulo8" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt" />
-        <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
+        <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (2)" />
+        <item itemvalue="Kotlin.MainKt (3)" />
+        <item itemvalue="Kotlin.MainKt (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1688750333079</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Exercicio finalizado">
+      <created>1688759736976</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688759736976</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Exercicio finalizado">
+      <created>1688760162410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688760162410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
