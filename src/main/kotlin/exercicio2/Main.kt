@@ -4,7 +4,6 @@ fun main(){
     var entrada = false
     while (!entrada){
         println("===================== Biblioteca =====================")
-        println("\t\t================ MENU ================")
         println("1. Cadastrar Livro | 2. Listar livros | 3. Sair")
         val option = readlnOrNull()?.toIntOrNull()
 

@@ -1,12 +1,9 @@
 package exercicio2
-
-import exercicio1.Supermercado
-
 class Biblioteca() {
     companion object {
-        val romance = mutableMapOf<String, Livro>()
-        val ficcaoCientifica = mutableMapOf<String, Livro>()
-        val suspence = mutableMapOf<String, Livro>()
+        val romance = arrayListOf<Livro>()
+        val ficcaoCientifica = arrayListOf<Livro>()
+        val suspence = arrayListOf<Livro>()
         fun cadastrarLivro() {
             println("==================== Cadastrar Livro ====================")
             println("Quantos livros você deseja cadastrar?")
@@ -18,31 +15,49 @@ class Biblioteca() {
                 val nome = readlnOrNull() ?: " "
                 println("Qual o nome do autor?")
                 val autor = readlnOrNull() ?: " "
-                println("Qual o gênero do livro?\n1. Romance | 2. Ficção Científica | 3. Suspense)")
+                println("Qual o gênero do livro?\n1. Romance | 2. Ficção Científica | 3. Suspense")
                 val generoOpcao = readlnOrNull()?.toIntOrNull() ?: " "
 
-                when(generoOpcao){
-                    1-> {
-                        romance.put("Romance", Livro(nome, autor))
-                        println("Livro cadastrado com sucesso!")
+                when (generoOpcao) {
+                    1 -> {
+                        romance.add(Livro(nome, autor))
+                        println("Livro registrado com sucesso!")
                     }
-                    2->{
-                        ficcaoCientifica.put("Ficção Científic", Livro(nome, autor))
-                        println("Livro cadastrado com sucesso!")
+
+                    2 -> {
+                        ficcaoCientifica.add(Livro(nome, autor))
+                        println("Livro registrado com sucesso!")
                     }
-                    3->{
-                        suspence.put("Suspense", Livro(nome, autor))
-                        println("Livro cadastrado com sucesso!")
+
+                    3 -> {
+                        suspence.add(Livro(nome, autor))
+                        println("Livro registrado com sucesso!")
                     }
-                    else->{
-                        println("Opção invalida, tente novamente!")
+                    else -> {
+                        println("opção invalida")
+
                     }
                 }
             }
         }
-        fun listarLivros(){
+        fun listarLivros() {
             println("===================== Livros Cadastrados =====================")
-
+            println()
+            println("=========== Romance ==========")
+            for (livro in romance) {
+                println(livro.toString())
+            }
+            println()
+            println("=========== Ficção Científica ==========")
+            for (livro in ficcaoCientifica) {
+                println(livro.toString())
+            }
+            println()
+            println("=========== Suspense ==========")
+            for (livro in suspence) {
+                println(livro.toString())
+            }
+            println()
         }
     }
 }
