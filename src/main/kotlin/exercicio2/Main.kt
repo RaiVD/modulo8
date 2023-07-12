@@ -1,7 +1,6 @@
 package exercicio2
 
-fun main() {
-    var entrada = false
+fun main() { var entrada = false
     while (!entrada) {
         println("====================================== Menu ======================================")
         println("Qual opção você deseja: ")
@@ -9,14 +8,8 @@ fun main() {
         val option = readlnOrNull()?.toIntOrNull()
 
         when (option) {
-            1 -> {
-                CalcularIdade.idadeAlbert()
-            }
-
-            2 -> {
-                CalcularIdade.idadeIssac()
-            }
-
+            1 -> { CalcularIdade.idadeAlbert() }
+            2 -> { CalcularIdade.idadeIssac() }
             3 -> {
                 println("Qual seu nome?")
                 val nome = readln()
@@ -28,15 +21,11 @@ fun main() {
                 val ano = readln().toInt()
                 CalcularIdade.idadeUsuario(nome,dia,mes, ano)
             }
-
             4 -> {
                 println("Saindo...")
                 entrada = true
             }
-
-            else -> {
-                println("Opção invalida, tente novamente")
-            }
+            else -> { println("Opção invalida, tente novamente") }
         }
     }
 }

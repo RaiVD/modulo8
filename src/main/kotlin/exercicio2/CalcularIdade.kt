@@ -9,12 +9,9 @@ class CalcularIdade {
             pessoa.ajustaDataDeNascimento(14, 3, 1879)
 
             val dataAtual = LocalDate.now()
-            val diaAtual = dataAtual.dayOfMonth
-            val mesAtual = dataAtual.monthValue
             val anoAtual = dataAtual.year
 
-            pessoa.calculaIdade(diaAtual, mesAtual, anoAtual)
-
+            pessoa.calculaIdade(anoAtual)
             println("Nome: ${pessoa.informarNome()}")
             println("Idade: ${pessoa.informarIdade()} anos")
         }
@@ -24,11 +21,9 @@ class CalcularIdade {
             pessoa.ajustaDataDeNascimento(4, 1, 1643)
 
             val dataAtual = LocalDate.now()
-            val diaAtual = dataAtual.dayOfMonth
-            val mesAtual = dataAtual.monthValue
             val anoAtual = dataAtual.year
 
-            pessoa.calculaIdade(diaAtual, mesAtual, anoAtual)
+            pessoa.calculaIdade(anoAtual)
 
             println("Nome: ${pessoa.informarNome()}")
             println("Idade: ${pessoa.informarIdade()} anos")
@@ -40,11 +35,9 @@ class CalcularIdade {
             pessoa.ajustaDataDeNascimento(dia, mes, ano)
 
             val dataAtual = LocalDate.now()
-            val diaAtual = dataAtual.dayOfMonth
-            val mesAtual = dataAtual.monthValue
             val anoAtual = dataAtual.year
 
-            pessoa.calculaIdade(diaAtual, mesAtual, anoAtual)
+            pessoa.calculaIdade(anoAtual)
 
             println("Nome: ${pessoa.informarNome()}")
             println("Idade: ${pessoa.informarIdade()} anos")

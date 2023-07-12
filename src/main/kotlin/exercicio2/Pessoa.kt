@@ -15,7 +15,7 @@ class Pessoa {
 
     var nome: String = ""
 
-    fun calculaIdade(diaAtual: Int, mesAtual: Int, anoAtual: Int) {
+    fun calculaIdade( anoAtual: Int) {
         idade = anoAtual - anoNascimento
 
         if (anoAtual < anoNascimento) {
