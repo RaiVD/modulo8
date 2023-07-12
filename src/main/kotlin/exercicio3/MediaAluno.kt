@@ -64,7 +64,6 @@ class MediaAluno {
                 println()
             }
         }
-
         fun listarNotaPorRA() {
             println("Qual o RA do aluno:")
             val ra = readlnOrNull()?.toIntOrNull()

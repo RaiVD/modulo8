@@ -9,19 +9,13 @@ fun main(){
         val option = readlnOrNull()?.toIntOrNull()
 
         when (option) {
-            1 -> {
-               MediaAluno.acessoProfessor()
-            }
-            2 -> {
-                MediaAluno.listarNotaPorRA()
-            }
+            1 -> { MediaAluno.acessoProfessor() }
+            2 -> { MediaAluno.listarNotaPorRA() }
             3 -> {
                 println("Saindo...")
                 entrada = true
             }
-            else -> {
-                println("Opção invalida, tente novamente")
-            }
+            else -> { println("Opção invalida, tente novamente") }
         }
     }
 }

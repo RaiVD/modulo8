@@ -2,14 +2,17 @@ package exercicio1
 
 class Caixa() {
     companion object {
-
         var listaDeProdutos = mutableMapOf<Int, Produto>()
         fun estoque() {
+            listaDeProdutos.put(1234, Produto("Celular1",2199.00,20))
+            listaDeProdutos.put(1233, Produto("Celular2",3199.00,10))
+            listaDeProdutos.put(1222, Produto("Celular3",3799.00,10))
+            listaDeProdutos.put(1244, Produto("Celular4",2599.00,15))
+            listaDeProdutos.put(1111, Produto("Celular5",1999.00,20))
             for (valor in listaDeProdutos) {
                 println("-Nome:${valor.value.nome}|Preço:${valor.value.valor}|Quantidade:${valor.value.quantidade}|Codigo:${valor.key}")
             }
         }
-
         fun cadastrarProdutosEstoque() {
             println("Quantos produtos você deseja adicionar:")
             val adicionar = readln().toIntOrNull() ?: 0
@@ -34,7 +37,6 @@ class Caixa() {
             println("===================== Estoque Atualizado =====================")
             println(estoque())
         }
-
         fun cadastrarCompra() {
             println("===================== Produtos disponiveis =====================")
             println(estoque())
