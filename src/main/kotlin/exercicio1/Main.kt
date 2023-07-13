@@ -1,8 +1,8 @@
 package exercicio1
 
 fun main() {
-
-    val produtos = arrayOf(
+    //access modifier
+    val produtos = arrayOf(//get e set implicit
         Livro("Livro 1", 29.99, "13543987987", "Autor 1"),
         Cds("CD 1", 19.99, "5432154321", 12),
         Dvds("DVD 1", 39.99, "136543212345",120),
@@ -14,7 +14,8 @@ fun main() {
         produto.mostrarDetalhesDoItem()
     }
 
-
+    //get e set implicit
+    //access modifier
     val produtoComMesmoCodigo = Cds("CD 1", 19.99, "5432154321", 12)
     val produtoSemMesmoCodigo = Cds("CD 34", 9.99, "1234543234", 24)
     println("------------- PRODUTO PROCURADO --------------")

@@ -1,5 +1,5 @@
 package exercicio1
-
+//access modifier
 abstract class Produto(val nome: String, val preco: Double, val codigoDeBarras: String) {
     abstract fun mostrarDetalhesDoItem()
 

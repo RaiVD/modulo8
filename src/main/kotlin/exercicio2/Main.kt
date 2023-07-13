@@ -1,6 +1,7 @@
 package exercicio2
+//access modifier
 fun main() {
-    val formas = arrayOf(
+    val formas = arrayOf(//get e set implicit
         Retangulo(3f, 4f),
         Circulo(2.5f),
         Quadrado(5f,3f),

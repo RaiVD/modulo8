@@ -1,5 +1,5 @@
 package exercicio1
-
+//access modifier
 class Loja {
     companion object {
         fun buscarProduto(produto: Produto, produtos: Array<Produto>) {
