@@ -8,6 +8,6 @@ class Cachorro (nome: String, responsavel: String, raca: String): Animal ("Cacho
         println("Comendo bife")
     }
     override fun dormir() {
-        println("Dormindo na cama da Jéssica")
+        println("Dormindo na cama do $responsavel")
     }
 }

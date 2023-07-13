@@ -55,7 +55,6 @@ class Registros {
         fun interagirCachorro() {
             var entrada = false
             while (!entrada) {
-
                 println("Qual o nome do cachorro: ")
                 val nomeVerificar = readln()
 
@@ -111,7 +110,6 @@ class Registros {
                 }
             }
         }
-
         fun interagirPeixe() {
 
             var entrada = false

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Exercicio finalizado">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio6/Sistema.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio6/Sistema.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Cachorro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Cachorro.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Registros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Registros.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <recent name="C:\Users\raissa.carvalho\Desktop\modulo8\src\main\kotlin\exercicio2" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt (5)">
+  <component name="RunManager" selected="Kotlin.MainKt (4)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio2.MainKt" />
       <module name="modulo8" />
@@ -87,8 +87,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (4)" />
+        <item itemvalue="Kotlin.MainKt (5)" />
         <item itemvalue="Kotlin.MainKt (3)" />
         <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt (1)" />
@@ -124,5 +124,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercicio finalizado" />
     <option name="LAST_COMMIT_MESSAGE" value="Exercicio finalizado" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
