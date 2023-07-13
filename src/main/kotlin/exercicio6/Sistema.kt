@@ -47,11 +47,9 @@ class Sistema {
                             println("O nome não pode ser vazio")
                         }
                     }
-
                     4 -> {
                         entrada = true
                     }
-
                     else -> {
                         println("opção invalida")
                     }
@@ -67,11 +65,9 @@ class Sistema {
                 1 -> {
                     salario()
                 }
-
                 2 -> {
                     poupanca()
                 }
-
                 3 -> {
                     corrente()
                 }

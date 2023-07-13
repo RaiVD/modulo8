@@ -1,7 +1,6 @@
 package exercicio6
 
 fun main(){
-
     var entrada= false
     while (!entrada){
         println("Menu")
