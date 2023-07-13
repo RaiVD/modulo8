@@ -2,7 +2,7 @@ package exercicio5
 fun main(){
     var entrada = false
     while (!entrada) {
-        println("================== Controle de Funcionarios ==================")
+        println("================== Controle de Animais ==================")
         println("1. Registrar Animal")
         println("2. Listar todos os Animal")
         println("3. Interagir com Cachorro")

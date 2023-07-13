@@ -4,8 +4,8 @@ class Registros {
     companion object {
         private val animal = arrayListOf<Animal>()
         val cachorro = Cachorro("Lulu","Raissa","Golden")
-        val gato = Gato("Lele", "Raissa","Loy")
-        val peixe = Peixe("Lili","Raissa","Pacu")
+        val gato = Gato("Lele", "Raissa","Persa")
+        val peixe = Peixe("Lili","Raissa","Carpa")
         fun registrarAnimal() {
             println("Quantos animais deseja lançar?")
             val quantidade = readlnOrNull()?.toIntOrNull() ?: 0
@@ -53,8 +53,7 @@ class Registros {
             }
         }
         fun interagirCachorro() {
-            var entrada = false
-            while (!entrada) {
+            while (true) {
                 println("Qual o nome do cachorro: ")
                 val nomeVerificar = readln()
 
@@ -77,13 +76,12 @@ class Registros {
                 println("1. Sim | 2. Não")
                 val option = readlnOrNull()?.toIntOrNull()
                 if (option != null && option == 2) {
-                    entrada = true
+                    return
                 }
             }
         }
         fun interagirGato() {
-            var entrada = false
-            while (!entrada) {
+            while (true) {
                 println("Qual o nome do gato: ")
                 val nomeVerificar = readLine()
 
@@ -106,14 +104,12 @@ class Registros {
                 println("1. Sim | 2. Não")
                 val option = readlnOrNull()?.toIntOrNull()
                 if (option != null && option == 2) {
-                    entrada = true
+                    return
                 }
             }
         }
         fun interagirPeixe() {
-
-            var entrada = false
-            while (!entrada) {
+            while (true) {
                 println("Qual o nome do peixe: ")
                 val nomeVerificar = readLine()
 
@@ -136,7 +132,7 @@ class Registros {
                 println("1. Sim | 2. Não")
                 val option = readlnOrNull()?.toIntOrNull()
                 if (option != null && option == 2) {
-                    entrada = true
+                    return
                 }
             }
         }

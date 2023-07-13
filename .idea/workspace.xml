@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Exercicio finalizado">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Cachorro.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Cachorro.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Registros.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio5/Registros.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
