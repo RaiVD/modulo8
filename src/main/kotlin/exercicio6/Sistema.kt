@@ -5,7 +5,6 @@ class Sistema {
         val contaSalario = arrayListOf<Conta>()
         val contaPoupanca = arrayListOf<Conta>()
         val contaCorrente = arrayListOf<Conta>()
-
         fun criarConta() {
             var entrada = false
             while (!entrada) {
@@ -48,10 +47,12 @@ class Sistema {
                             println("O nome não pode ser vazio")
                         }
                     }
+
                     4 -> {
                         entrada = true
                     }
-                    else->{
+
+                    else -> {
                         println("opção invalida")
                     }
                 }
@@ -62,153 +63,157 @@ class Sistema {
             println("Qual tipo de conta deseja acessar?")
             println("1. Conta Salário | 2. Conta Poupança | 3. Conta Corrente | 4. Voltar ao menu")
             val option = readlnOrNull()?.toIntOrNull() ?: 0
-
-            when(option){
-                1-> {
-                    println("Digite o nome do responsavel da conta: ")
-                    val nome = readlnOrNull()
-
-                    val contaSalario = contaSalario.find { it.nomeDoUsuario == nome }
-                    if (contaSalario != null) {
-                        println("Qual opção você deseja:")
-                        println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
-                        val option = readlnOrNull()?.toIntOrNull() ?: 0
-                        when (option) {
-                            1 -> {
-                                print("Digite o valor do depósito: ")
-                                val valor = readln().toDouble()
-                                print("É depósito do empregador? (s/n): ")
-                                val empregador = readln()
-
-                                contaSalario.depositar(valor,empregador)
-                            }
-                            2 -> {
-                                print("Digite o valor do depósito: ")
-                                val valor = readln().toDouble()
-
-                                contaSalario.sacar(valor)
-                            }
-                            3 -> {
-                                contaSalario.consultarSaldo()
-                            }
-                            4 -> return
-                            else -> println("Opção inválida.")
-                        }
-                    } else {
-                        println("Conta não encontrada.")
-                    }
+            when (option) {
+                1 -> {
+                    salario()
                 }
-                else->{
+
+                2 -> {
+                    poupanca()
+                }
+
+                3 -> {
+                    corrente()
+                }
+
+                else -> {
                     println("opção invalida")
                 }
             }
-            when(option){
-                1-> {
-                    println("Digite o nome do responsavel da conta: ")
-                    val nome = readlnOrNull()
+        }
+        fun salario() {
+            var entrada = false
+            while (!entrada) {
+                println("Digite o nome do responsavel da conta: ")
+                val nome = readlnOrNull()
 
-                    val contaSalario = contaSalario.find { it.nomeDoUsuario == nome }
-                    if (contaSalario != null) {
-                        println("Qual opção você deseja:")
-                        println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
-                        val option = readlnOrNull()?.toIntOrNull() ?: 0
-                        when (option) {
-                            1 -> {
-                                print("Digite o valor do depósito: ")
-                                val valor = readln().toDouble()
-                                print("É depósito do empregador? (s/n): ")
-                                val empregador = readln()
-
-                                contaSalario.depositar(valor,empregador)
-                            }
-                            2 -> {
-                                print("Digite o valor do saque: ")
-                                val valor = readln().toDouble()
-
-                                contaSalario.sacar(valor)
-                            }
-                            3 -> {
-                                contaSalario.consultarSaldo()
-                            }
-                            4 -> return
-                            else -> println("Opção inválida.")
+                val contaSalario = contaSalario.find { it.nomeDoUsuario == nome }
+                if (contaSalario != null) {
+                    println("Qual opção você deseja:")
+                    println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
+                    val option = readlnOrNull()?.toIntOrNull() ?: 0
+                    when (option) {
+                        1 -> {
+                            print("Digite o valor do depósito: ")
+                            val valor = readln().toDouble()
+                            print("É depósito do empregador? (s/n): ")
+                            val empregador = readln()
+                            contaSalario.depositar(valor, empregador)
                         }
-                    } else {
-                        println("Conta não encontrada.")
+
+                        2 -> {
+                            print("Digite o valor do saque: ")
+                            val valor = readln().toDouble()
+                            contaSalario.sacar(valor)
+                        }
+
+                        3 -> {
+                            contaSalario.consultarSaldo()
+                        }
+
+                        4 -> return
+                        else -> println("Opção inválida.")
                     }
                 }
-                2-> {
-                    println("Digite o nome do responsavel da conta: ")
-                    val nome = readlnOrNull()
+                println("Deseja realizar outra operação?")
+                println("1. Sim | 2. Não")
+                val option = readlnOrNull()?.toIntOrNull()
+                if (option != null && option == 2) {
+                    entrada = true
+                }
+            }
+        }
+        fun poupanca() {
 
-                    val contaPoupanca = contaPoupanca.find { it.nomeDoUsuario == nome }
-                    if (contaPoupanca != null) {
-                        println("Qual opção você deseja:")
-                        println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
-                        val option = readlnOrNull()?.toIntOrNull() ?: 0
-                        when (option) {
-                            1 -> {
-                                print("Digite o valor do depósito: ")
-                                val valor = readln().toDouble()
-                                print("É depósito do usuario? (s/n): ")
-                                val usuario = readln()
+            var entrada = false
+            while (!entrada) {
+                println("Digite o nome do responsavel da conta: ")
+                val nome = readlnOrNull()
 
-                                contaPoupanca.depositar(valor,usuario)
-                            }
-                            2 -> {
-                                print("Digite o valor do saque: ")
-                                val valor = readln().toDouble()
+                val contaPoupanca = contaPoupanca.find { it.nomeDoUsuario == nome }
+                if (contaPoupanca != null) {
+                    println("Qual opção você deseja:")
+                    println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
+                    val option = readlnOrNull()?.toIntOrNull() ?: 0
+                    when (option) {
+                        1 -> {
+                            print("Digite o valor do depósito: ")
+                            val valor = readln().toDouble()
+                            print("É depósito do usuario? (s/n): ")
+                            val usuario = readln()
 
-                                contaPoupanca.sacar(valor)
-                            }
-                            3 -> {
-                                contaPoupanca.consultarSaldo()
-                            }
-                            4 -> return
-                            else -> println("Opção inválida.")
+                            contaPoupanca.depositar(valor, usuario)
                         }
-                    } else {
-                        println("Conta não encontrada.")
-                    }
-                }
-                3-> {
-                    println("Digite o nome do responsavel da conta: ")
-                    val nome = readlnOrNull()
 
-                    val contaCorrente = contaCorrente.find { it.nomeDoUsuario == nome }
-                    if (contaCorrente != null) {
-                        println("Qual opção você deseja:")
-                        println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
-                        val option = readlnOrNull()?.toIntOrNull() ?: 0
-                        when (option) {
-                            1 -> {
-                                print("Digite o valor do depósito: ")
-                                val valor = readln().toDouble()
-                                print("É depósito do usuario? (s/n): ")
-                                val usuario = readln()
+                        2 -> {
+                            print("Digite o valor do saque: ")
+                            val valor = readln().toDouble()
 
-                                contaCorrente.depositar(valor,usuario)
-                            }
-                            2 -> {
-                                print("Digite o valor do saque: ")
-                                val valor = readln().toDouble()
-
-                                contaCorrente.sacar(valor)
-                            }
-                            3 -> {
-                                contaCorrente.consultarSaldo()
-                            }
-                            4 -> return
-                            else -> println("Opção inválida.")
+                            contaPoupanca.sacar(valor)
                         }
-                    } else {
-                        println("Conta não encontrada.")
-                    }
-                }
-                else->{
-                    println("opção invalida")
-                }
 
+                        3 -> {
+                            contaPoupanca.consultarSaldo()
+                        }
+
+                        4 -> return
+                        else -> println("Opção inválida.")
+                    }
+                } else {
+                    println("Conta não encontrada.")
+                }
+                println("Deseja realizar outra operação?")
+                println("1. Sim | 2. Não")
+                val option = readlnOrNull()?.toIntOrNull()
+                if (option != null && option == 2) {
+                    entrada = true
+                }
+            }
+        }
+        fun corrente() {
+            var entrada = false
+            while (!entrada) {
+                println("Digite o nome do responsavel da conta: ")
+                val nome = readlnOrNull()
+
+                val contaCorrente = contaCorrente.find { it.nomeDoUsuario == nome }
+                if (contaCorrente != null) {
+                    println("Qual opção você deseja:")
+                    println("1. Depositar | 2. Sacar | 3. Ver saldo | 4. Voltar ao menu")
+                    val option = readlnOrNull()?.toIntOrNull() ?: 0
+                    when (option) {
+                        1 -> {
+                            print("Digite o valor do depósito: ")
+                            val valor = readln().toDouble()
+                            print("É depósito do usuario? (s/n): ")
+                            val usuario = readln()
+
+                            contaCorrente.depositar(valor, usuario)
+                        }
+
+                        2 -> {
+                            print("Digite o valor do saque: ")
+                            val valor = readln().toDouble()
+
+                            contaCorrente.sacar(valor)
+                        }
+
+                        3 -> {
+                            contaCorrente.consultarSaldo()
+                        }
+
+                        4 -> return
+                        else -> println("Opção inválida.")
+                    }
+                } else {
+                    println("Conta não encontrada.")
+                }
+                println("Deseja realizar outra operação?")
+                println("1. Sim | 2. Não")
+                val option = readlnOrNull()?.toIntOrNull()
+                if (option != null && option == 2) {
+                    entrada = true
+                }
             }
         }
     }
