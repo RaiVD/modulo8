@@ -12,7 +12,5 @@ abstract class Produto(val nome: String, val preco: Double, val codigoDeBarras: 
         return codigoDeBarras == other.codigoDeBarras
     }
 
-    override fun hashCode(): Int {
-        return codigoDeBarras.hashCode()
-    }
+
 }
