@@ -4,12 +4,11 @@ abstract class Produto(val nome: String, val preco: Double, val codigoDeBarras: 
     abstract fun mostrarDetalhesDoItem()
 
     override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (javaClass != other?.javaClass) return false
-
-        other as Produto
-
-        return codigoDeBarras == other.codigoDeBarras
+        return when(other){
+            is Produto-> {
+                this.codigoDeBarras == other.codigoDeBarras
+            }else-> false
+        }
     }
 
 
