@@ -47,15 +47,21 @@ class Registro {
             for (habitantes in listahabitante){
                 println("Nome - ${habitantes.nome} | Profissão - ${habitantes.profissao}\nSalários: ")
                 for ((index, salario) in habitantes.salario.withIndex()) {
-                    val imposto: Double = when{
-                        salario <= 2000 -> 0.0
-                        salario <= 3000 -> salario * 0.08
-                        salario <= 4500 -> salario * 0.18
-                        else -> salario * 0.28
+                    val imposto = when{
+                        salario <= 2000 -> {
+                            0.0
+                        }
+                        salario <= 3000 -> {
+                            Imposto().calcularImposto(0.08,salario)
+                        }
+                        salario <= 4500 -> {
+                            Imposto().calcularImposto(0.18,salario)
+                        }
+                        else -> {
+                            Imposto().calcularImposto(0.28,salario)
+                        }
                     }
-                    val format = "%.2f".format(imposto)
-                    val formtSalarioFinal =  "%.2f".format(salario - imposto)
-                    println("Mês ${index + 1}: Valor imposto- R$$format | Salario com Desconto R$${formtSalarioFinal}")
+                    println("Mês ${index + 1}: $imposto")
                 }
             }
         }
