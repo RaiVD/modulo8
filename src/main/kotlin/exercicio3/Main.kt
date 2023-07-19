@@ -13,6 +13,7 @@ fun main(){
             val option = readlnOrNull()?.toIntOrNull() ?: 0
             when (option) {
                 1 -> {
+                    println("============ Converte valores apenas para Real (R$) ============")
                     println("Qual valor deseja converter?")
                     val value = readln()
                     val valueBigDecimal = converter.validarValor(value)
@@ -22,6 +23,7 @@ fun main(){
 
                 }
                 2 -> {
+                    println("============ Converte valores apenas para Real (R$) ============")
                     println("Qual valor deseja converter?")
                     val value = readln()
                     val valueBigDecimal = converter.validarValor(value)
@@ -30,6 +32,7 @@ fun main(){
                             " o valor que pediu para converter de ${valueBigDecimal} em reais é R$$valueConvertido")
                 }
                 3 -> {
+                    println("============ Converte valores apenas para Real (R$) ============")
                     println("Qual valor deseja converter?")
                     val value = readln()
                     val valueBigDecimal = converter.validarValor(value)
@@ -38,6 +41,7 @@ fun main(){
                             " o valor que pediu para converter de ${valueBigDecimal} em reais é R$$valueConvertido")
                 }
                 4 -> {
+                    println("============ Converte valores apenas para Real (R$) ============")
                     println("Qual valor deseja converter?")
                     val value = readln()
                     val valueBigDecimal = converter.validarValor(value)
