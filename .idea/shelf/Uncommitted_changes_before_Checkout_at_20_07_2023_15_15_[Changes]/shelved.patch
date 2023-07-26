@@ -1,0 +1,17 @@
+Index: src/main/kotlin/exercicio6/GuardaVolumes.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package exercicio6\r\nclass GuardaVolumes {\r\n    companion object {\r\n        private val dicionario = HashMap<Int, ArrayList<Peca>>()\r\n        private var contador = 0\r\n    }\r\n    fun guardarPecas(listaDePeca: ArrayList<Peca>): Int {\r\n        contador++\r\n        dicionario[contador] = listaDePeca\r\n        return contador\r\n    }\r\n    fun mostrarPecas() {\r\n        for ((numero, pecas) in dicionario) {\r\n            for (peca in pecas) {\r\n                println(\"ID - $numero | Marca - ${peca.marca} | Modelo - ${peca.modelo}\")\r\n            }\r\n        }\r\n    }\r\n\r\n    fun mostrarPecas(numero: Int) {\r\n        val pecas = dicionario[numero]\r\n        if (pecas != null) {\r\n            for (peca in pecas) {\r\n                println(\"ID - $numero | Marca - ${peca.marca} | Modelo - ${peca.modelo}\")\r\n            }\r\n        } else {\r\n            println(\"Número inválido!\")\r\n        }\r\n    }\r\n\r\n    fun devolverPecas(numero: Int) {\r\n        val pecas = dicionario.remove(numero)\r\n        if (pecas != null){\r\n            for (peca in pecas){\r\n                PecaConcreta(peca.marca,peca.modelo).retirada()\r\n            }\r\n        }else {\r\n            println(\"Número inválido!\")\r\n        }\r\n    }\r\n}
+===================================================================
+diff --git a/src/main/kotlin/exercicio6/GuardaVolumes.kt b/src/main/kotlin/exercicio6/GuardaVolumes.kt
+--- a/src/main/kotlin/exercicio6/GuardaVolumes.kt	
++++ b/src/main/kotlin/exercicio6/GuardaVolumes.kt	
+@@ -10,7 +10,7 @@
+         return contador
+     }
+     fun mostrarPecas() {
+-        for ((numero, pecas) in dicionario) {
++        for ((numero, pas) in dicionario) {
+             for (peca in pecas) {
+                 println("ID - $numero | Marca - ${peca.marca} | Modelo - ${peca.modelo}")
+             }
