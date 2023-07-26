@@ -1,14 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="" />
+    <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Produto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/DiasDaSemana.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/ReceberNumeros.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio1Test/ProdutoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio3Test/ReceberNumerosTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulo8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modulo8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="aula59" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2SCRyynfTIBuH3lLN1KoEskqixQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,10 +57,114 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/raissa.carvalho/Desktop/modulo8/src/test/kotlin",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\raissa.carvalho\Desktop\modulo8\src\test\kotlin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ReceberNumerosTest">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercicio3.MainKt" />
+      <module name="modulo8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiasDaSemanaTest.verificarSeHojeEDomingo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="modulo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicio2Test" />
+      <option name="MAIN_CLASS_NAME" value="exercicio2Test.DiasDaSemanaTest" />
+      <option name="METHOD_NAME" value="verificarSeHojeEDomingo" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiasDaSemanaTest.verificarSeQualDiaDaSemanaAtual" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="modulo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicio2Test" />
+      <option name="MAIN_CLASS_NAME" value="exercicio2Test.DiasDaSemanaTest" />
+      <option name="METHOD_NAME" value="verificarSeQualDiaDaSemanaAtual" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceberNumerosTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="modulo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicio3Test" />
+      <option name="MAIN_CLASS_NAME" value="exercicio3Test.ReceberNumerosTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReceberNumerosTest.testarSeOMetodoRetornaOMaiorValor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="modulo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio3Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicio3Test" />
+      <option name="MAIN_CLASS_NAME" value="exercicio3Test.ReceberNumerosTest" />
+      <option name="METHOD_NAME" value="testarSeOMetodoRetornaOMaiorValor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ReceberNumerosTest" />
+        <item itemvalue="TestNG.ReceberNumerosTest.testarSeOMetodoRetornaOMaiorValor" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="TestNG.DiasDaSemanaTest.verificarSeHojeEDomingo" />
+        <item itemvalue="TestNG.DiasDaSemanaTest.verificarSeQualDiaDaSemanaAtual" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -32,5 +175,20 @@
       <updated>1688648837868</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
