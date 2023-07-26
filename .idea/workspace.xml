@@ -4,22 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Produto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/DiasDaSemana.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/ReceberNumeros.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio1Test/ProdutoTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio3Test/ReceberNumerosTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+    <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Atualização dos exercicios">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modulo8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/modulo8.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio1/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio3/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/exercicio1Test/ProdutoTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio1Test/ProdutoTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/exercicio3Test/ReceberNumerosTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio3Test/ReceberNumerosTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +71,23 @@
       <recent name="C:\Users\raissa.carvalho\Desktop\modulo8\src\test\kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ReceberNumerosTest">
+  <component name="RunManager" selected="JUnit.DiasDaSemanaTest.verificarSeHojeEDomingo">
+    <configuration name="DiasDaSemanaTest.verificarSeHojeEDomingo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="modulo8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercicio2Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercicio2Test" />
+      <option name="MAIN_CLASS_NAME" value="exercicio2Test.DiasDaSemanaTest" />
+      <option name="METHOD_NAME" value="verificarSeHojeEDomingo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercicio3.MainKt" />
       <module name="modulo8" />
@@ -95,24 +106,6 @@
       <option name="PACKAGE_NAME" value="exercicio2Test" />
       <option name="MAIN_CLASS_NAME" value="exercicio2Test.DiasDaSemanaTest" />
       <option name="METHOD_NAME" value="verificarSeHojeEDomingo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DiasDaSemanaTest.verificarSeQualDiaDaSemanaAtual" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="modulo8" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercicio2Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercicio2Test" />
-      <option name="MAIN_CLASS_NAME" value="exercicio2Test.DiasDaSemanaTest" />
-      <option name="METHOD_NAME" value="verificarSeQualDiaDaSemanaAtual" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiasDaSemanaTest.verificarSeHojeEDomingo" />
         <item itemvalue="TestNG.ReceberNumerosTest" />
         <item itemvalue="TestNG.ReceberNumerosTest.testarSeOMetodoRetornaOMaiorValor" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="TestNG.DiasDaSemanaTest.verificarSeHojeEDomingo" />
-        <item itemvalue="TestNG.DiasDaSemanaTest.verificarSeQualDiaDaSemanaAtual" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +167,14 @@
       <option name="presentableId" value="Default" />
       <updated>1688648837868</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atualização dos exercicios">
+      <created>1690334877434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690334877435</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualização dos exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização dos exercicios" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

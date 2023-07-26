@@ -1,7 +1,8 @@
 package exercicio1Test
+
 import exercicio1.Produto
-import org.testng.Assert.assertEquals
-import org.testng.annotations.Test
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
 class ProdutoTest {
     @Test

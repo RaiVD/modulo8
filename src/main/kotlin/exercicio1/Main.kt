@@ -1,5 +1,7 @@
 package exercicio1
 
+import java.sql.DriverManager.println
+
 fun main() {
     val produto = Produto(20.00,35.00,35.99)
     println("Valor do produto1: R$${produto.produtoUm}")

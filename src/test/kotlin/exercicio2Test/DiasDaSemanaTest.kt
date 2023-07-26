@@ -1,10 +1,12 @@
 package exercicio2Test
+
 import exercicio2.DiasDaSemana
-import org.testng.Assert.assertEquals
-import org.testng.annotations.Test
+import org.junit.Assert.assertEquals
+import org.junit.Test
 import java.time.LocalDate
 import java.time.format.TextStyle
 import java.util.*
+
 class DiasDaSemanaTest {
     @Test
     fun verificarSeHojeEDomingo() {

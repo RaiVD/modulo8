@@ -1,7 +1,8 @@
 package exercicio3Test
+
 import exercicio3.ReceberNumeros
-import org.testng.Assert.assertEquals
-import org.testng.annotations.Test
+import org.junit.Assert.assertEquals
+import org.junit.Test
 
 class ReceberNumerosTest {
     @Test
