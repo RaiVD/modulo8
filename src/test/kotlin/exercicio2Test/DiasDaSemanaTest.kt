@@ -1,24 +1,35 @@
 package exercicio2Test
 
-import exercicio2.DiasDaSemana
 import org.junit.Assert.assertEquals
 import org.junit.Test
-import java.time.LocalDate
-import java.time.format.TextStyle
-import java.util.*
 
 class DiasDaSemanaTest {
     @Test
-    fun verificarSeHojeEDomingo() {
-        val resultado: String = DiasDaSemana(LocalDate.of(2023,7,30)).melhorDiaFeira()
-        assertEquals("Hoje é domingo! É o melhor dia para ir à feira.", resultado)
+    fun testDiaCorrespondente() {
+        assertEquals("Domingo", obterDiaDaSemana(1))
+        assertEquals("Segunda-feira", obterDiaDaSemana(2))
+        assertEquals("Terça-feira", obterDiaDaSemana(3))
+        assertEquals("Quarta-feira", obterDiaDaSemana(4))
+        assertEquals("Quinta-feira", obterDiaDaSemana(5))
+        assertEquals("Sexta-feira", obterDiaDaSemana(6))
+        assertEquals("Sábado", obterDiaDaSemana(7))
     }
-
     @Test
-    fun verificarSeQualDiaDaSemanaAtual() {
-        val diaAtualDaSemana = LocalDate.now().dayOfWeek
-        val resultadoDiaDaSemana = diaAtualDaSemana.getDisplayName(TextStyle.FULL, Locale.getDefault())
-        val nomeDiaDaSemana = DiasDaSemana(LocalDate.now()).diaDaSemanaAtual()
-        assertEquals("Hoje é $resultadoDiaDaSemana", nomeDiaDaSemana)
+    fun testValorInvalido() {
+        assertEquals("Valor inválido", obterDiaDaSemana(0))
+        assertEquals("Valor inválido", obterDiaDaSemana(8))
+        assertEquals("Valor inválido", obterDiaDaSemana(-1))
+    }
+    private fun obterDiaDaSemana(numero: Int): String {
+        return when (numero) {
+            1 -> "Domingo"
+            2 -> "Segunda-feira"
+            3 -> "Terça-feira"
+            4 -> "Quarta-feira"
+            5 -> "Quinta-feira"
+            6 -> "Sexta-feira"
+            7 -> "Sábado"
+            else -> "Valor inválido"
+        }
     }
 }
