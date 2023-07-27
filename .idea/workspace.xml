@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b54d48d1-c5aa-4922-a45b-97e8f0a5add1" name="Changes" comment="Atualização dos exercicios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio2/DiasDaSemana.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercicio2/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/exercicio2Test/DiasDaSemanaTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercicio2/DiasDaSemana.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/exercicio2/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/exercicio2/MainKt.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/raissa.carvalho/Desktop/modulo8/src/test/kotlin",
+    "last_opened_file_path": "C:/Users/raissa.carvalho/Desktop/Desafio3",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -178,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690378072525</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Atualização dos exercicios">
+      <created>1690379731798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690379731798</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
